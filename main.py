@@ -27,6 +27,7 @@ def ask2wiki(doc):
 			wiki_resp = wikipedia.page(phrase)
 			return ((wikipedia.summary(phrase, sentences=4)))
 
-
-answer = ask2wiki(doc)
-st.write(answer)
+st.button("ASK", type="primary")
+if st.button:
+	answer = ask2wiki(doc)
+	st.markdown(f'*{answer}*')
