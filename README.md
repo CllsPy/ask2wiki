@@ -5,7 +5,7 @@ An app that uses spaCy to answer questions by extracting relevant information fr
 
 ## Requirements
 
-```python
+```Python
 streamlit
 spacy
 wikipedia
