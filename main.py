@@ -12,6 +12,9 @@ with st.sidebar:
 
 	"""
  )
+
+ st.markdown("---")
+ st.markdown("made by [CLL](https://github.com/)")
 nlp = spacy.load("en_core_web_sm")
 
 doc_input = st.text_input("Question", placeholder="O que você sabe sobre...")
