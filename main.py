@@ -4,12 +4,13 @@ import wikipedia
 import streamlit as st
 
 with st.sidebar:
+	st.markdown("Objective")
 	st.markdown("""
  			An app that uses spaCy to answer questions 
 			    by extracting relevant information from Wikipedia articles for quick, 
 			    accurate responses.
 
-"""
+	"""
  )
 nlp = spacy.load("en_core_web_sm")
 
