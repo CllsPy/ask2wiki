@@ -8,14 +8,11 @@ with st.sidebar:
 	st.markdown("""
  			An app that uses spaCy to answer questions 
 			    by extracting relevant information from Wikipedia articles for quick, 
-			    accurate responses.
+			    accurate responses.""")
 
-	"""
- )
-
- st.markdown("---")
- st.markdown("made by [CLL](https://github.com/)")
-nlp = spacy.load("en_core_web_sm")
+	st.markdown("---")
+	st.markdown("made by [CLL](https://github.com/)")
+	nlp = spacy.load("en_core_web_sm")
 
 doc_input = st.text_input("Question", placeholder="O que você sabe sobre...")
 base = 'What do you know about '
