@@ -4,7 +4,7 @@ import wikipedia
 import streamlit as st
 
 with st.sidebar:
-	st.markdown("Objective")
+	st.markdown("## ASK2WIKI")
 	st.markdown("""
  			An app that uses spaCy to answer questions 
 			    by extracting relevant information from Wikipedia articles for quick, 
